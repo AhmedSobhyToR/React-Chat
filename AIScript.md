@@ -1,4 +1,4 @@
-Introducing AIScript, my latest React.js project that brings the power of the Gemini API right to your fingertips! Whether you're coding up a storm or just exploring new ideas, AIScript is designed to provide insightful responses and personalized assistance.
+Introducing AIScriptو my latest React.js project that brings the power of the Gemini API right to your fingertips! Whether you're coding up a storm or just exploring new ideas, AIScript is designed to provide insightful responses and personalized assistance.
 
  Key Features:
 
