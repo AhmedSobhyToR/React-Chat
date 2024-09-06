@@ -31,7 +31,7 @@ const Container = () => {
 
     return (
         <div className='container'>
-            <BrowserRouter basename='React-Chat'>
+            <BrowserRouter basename='/React-Chat'>
                 <Routes>
                     {user ? (
                         <>
