@@ -1,0 +1,72 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.register-header{
+    background-image: linear-gradient(to right, rgba(199, 44, 44, 0.762), rgb(53, 0, 169));
+    background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.register-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    gap: 1.5rem
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form p{
+    font-size: 1.5rem;
+}
+.register-form input{
+    background-color:rgba(25, 25, 114, 0.668) ;
+    padding-left: 0.5rem;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+    width: 50%;
+    height: 2.5rem;
+}
+.upload-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.upload-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+.upload-img label{
+    font-size: 1rem;
+  
+    cursor: pointer;
+}
+
+.register-link p{
+    font-size: 0.8rem;
+}
+.register-link p span{
+   /* text-decoration: underline; */
+   background-image: linear-gradient(to right, rgba(199, 44, 44, 0.762), rgb(53, 0, 169));
+   background-clip: text;
+   color: transparent;
+   cursor: pointer;
+}
+a{
+    color: none;
+    text-decoration: none;
+}

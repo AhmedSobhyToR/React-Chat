@@ -1,0 +1,39 @@
+.message{
+    display: flex;
+    gap: 10px;
+    max-width: 70%;
+    
+
+    &.owner{
+        align-self: flex-end;
+        
+      
+        img{
+            display: none;
+        }
+        p{
+            background-color: rgba(109, 109, 138, 0.715);
+        }
+ 
+    }
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    div{
+        width: 100%;
+    }
+
+    p{
+        border-radius: 0.7rem;
+        padding: 0.5rem;
+        background-color: rgba(13, 13, 67, 0.466);
+        width: 100%;
+        font-size: 0.9rem;
+        min-height: 60px;
+    }
+    span{
+        font-size: 0.8rem;
+    }
+}

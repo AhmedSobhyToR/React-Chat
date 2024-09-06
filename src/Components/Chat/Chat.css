@@ -1,0 +1,21 @@
+.chat {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+.chat img{
+    width: 60px;
+}
+.chat p:nth-child(1){
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+.chat p:nth-child(2){
+    font-size: 0.8rem;
+    color: grey;
+}

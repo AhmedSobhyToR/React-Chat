@@ -1,0 +1,13 @@
+.container{
+    background-color: rgba(255, 255, 255, 0.129);
+    backdrop-filter: blur(10px);
+    width: 80vw;
+    height: 85vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    flex-direction: row;
+    border: none;
+    border-radius: 0.7rem;
+}

@@ -1,0 +1,125 @@
+/*  Mid Section (Chat) */
+.container-chat{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    
+
+}
+
+/*  Mid Section Header */
+
+.container-chat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    height: 15%;
+
+}
+.container-chat-header .chat-header-left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    
+}
+.container-chat-header .chat-header-left img{
+    width: 60px;
+    margin-right: 0.5rem;
+}
+
+.container-chat-header .chat-header-left p:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.container-chat-header .chat-header-left p:nth-child(2){
+    font-size: 0.9rem;
+    color: rgb(208, 208, 208);
+}
+
+.container-chat-header .chat-header-right img{
+    width: 20px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+/*  Mid Section Body */
+
+.container-chat-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    height: 70%;
+    gap: 5px;
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    scroll-behavior: smooth;
+    scrollbar-color: rgba(13, 13, 67, 0.466) transparent; 
+    
+}
+
+/* Mid Section Footer */
+.container-chat-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    height: 15%;
+    padding: 1rem;
+}
+.container-chat-footer img{
+    width: 20px;
+    cursor: pointer;
+}
+
+.container-chat-footer .chat-footer-left img{
+    margin: 0 0.5rem;
+}
+
+.container-chat-footer .chat-footer-right img{
+    margin: 0 0.5rem;
+}
+
+.container-chat-footer  .chat-footer-mid input {
+    width: 350px;
+    height: 2.4rem;
+    padding-left: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: rgba(25, 25, 114, 0.668);
+    color: white;
+}
+.chat-footer-right{
+    display: flex;
+    align-items: center;
+}
+.container-chat-footer .chat-footer-right input[type="button"]{
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: rgba(25, 25, 114, 0.668);
+    color: white;
+    cursor: pointer;
+}
+.emoji{
+    position: relative;
+}
+
+.picker{
+    z-index: 2;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+
+}

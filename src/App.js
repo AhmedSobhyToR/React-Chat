@@ -1,28 +1,16 @@
 import './App.css';
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Sidebar from './Components/sidebar/Sidebar';
-import Main from './Components/Main/Main';
-import Context from './context/Context';
-import { BrowserRouter } from 'react-router-dom';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import UserContext from './context/UserContext'
+import Container from './Components/Container/Container';
+import UserProvider from './context/UserContext';
 function App() {
 
   return (
-    <>
-        {/* <BrowserRouter basename="/">
-        <Routes>
-          <Route path='/' element={} ></Route>
-
-        </Routes>
-       
-        </BrowserRouter> */}
-
-        <Context>
-        <Sidebar></Sidebar>
-        <Main></Main>
-        </Context>
-
-    </>
+    <UserProvider>
+    <div className='app'>       
+    <Container></Container>
+    </div>
+    </UserProvider>
   );
 }
 

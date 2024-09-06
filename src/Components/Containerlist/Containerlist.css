@@ -1,0 +1,106 @@
+/* Left Section */
+.container-list{
+    width: 25%;
+    padding: 1rem 0;
+   
+}
+
+/* Left Section Header */
+.container-list-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.container-list-header-left{
+    display: flex;
+    align-items: center;
+}
+.container-list-header-left img{
+    width: 60px;
+    margin-right: 0.5rem;
+}
+.container-list-header-left p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.container-list-header-right{
+    display: flex;
+    align-items: center;
+}
+.container-list-header-right img{
+    cursor: pointer;
+    width: 20px;
+ margin: 0 0.3rem;
+}
+
+/* Left Section Search*/
+.container-list-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.container-list-search img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.container-list-search-left{
+    border: none;
+    border-radius: 0.7rem;
+    background-color: rgba(25, 25, 114, 0.668);
+    width: 80%;
+    height: 40px;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+.container-list-search-left img{
+    margin-right: 0.5rem;
+}
+.container-list-search-left input{
+    /* width: 100%; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.container-list-search-right{
+    background-color: rgba(25, 25, 114, 0.668);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+
+/* Left Section Body*/
+
+
+.container-list-body{
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    scrollbar-color:rgba(13, 13, 67, 0.466) transparent; 
+     max-height: 80%;
+
+}
+.container-list-body::-webkit-scrollbar {
+    width: 6px;
+}
+.container-list-body::-webkit-scrollbar-thumb {
+    background-color: rgba(25, 25, 114, 0.668); 
+    border-radius: 10px;
+}
+
+.container-list-body::-webkit-scrollbar-track {
+    background-color: grey;
+}

@@ -8,9 +8,11 @@
     font-family: "Roboto";
  
 }
-#root{
-    min-height: 100vh;
-    max-height: 100vh;
 
-    display: flex;
+body{
+    overflow: hidden;
+}
+
+p{
+    margin: 0 !important;
 }
